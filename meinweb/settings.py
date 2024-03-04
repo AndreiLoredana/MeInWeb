@@ -136,6 +136,5 @@ EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = "theandrei.loredana@gmail.com"
-EMAI_HOST_PASSWORD = 'castravesch1!'
-
+EMAI_HOST_PASSWORD = 'xojnwtjgcwqxmqhr'
 
