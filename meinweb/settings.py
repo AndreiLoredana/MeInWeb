@@ -120,11 +120,22 @@ STATIC_URL = '/staticfiles/'
 
 MEDIA_URL = '/images/'
 
-STATICFILES_DIRS = (BASE_DIR / 'staticfiles',
-                    )
+STATICFILES_DIRS = [os.path.join(BASE_DIR / 'staticfiles',
+                    )]
 
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = "theandrei.loredana@gmail.com"
+EMAI_HOST_PASSWORD = 'castravesch1!'
+
+

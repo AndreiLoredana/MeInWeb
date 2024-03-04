@@ -1,7 +1,74 @@
-body{
-    background-color: #F8F8F8!important;
+body {
+    background-color: #71b098 !important;
 }
 
-#profile-wrapper{
+#profile-wrapper {
     text-align: center;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.social-links ul, li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+#skills{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+
+
+}
+
+#contact-form {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin-bottom: 50px;
+}
+
+.input-field{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 14px;
+}
+
+
+#submit-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color: dimgrey;
+    border: none;
 }
