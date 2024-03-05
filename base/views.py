@@ -5,27 +5,26 @@ from django.core.mail import EmailMessage
 from django.conf import settings
 from django.template.loader import render_to_string
 
+
 def home(request):
     return render(request, 'base/home.html')
 
 
 def sendEmail(request):
-
-    global email
     if request.method == 'POST':
-
         template = render_to_string('base/email_template.html', {
-            "name": request.POST.get('name'),
-            "email": request.POST.get('email'),
-            "message": request.POST.get('message')
+            'name': request.POST['name'],
+            'email': request.POST['email'],
+            'message': request.POST['message'],
         })
 
         email = EmailMessage(request.POST['subject'],
                              template,
                              settings.EMAIL_HOST_USER,
-                             ["theandrei.loredana@gmail.com"]
+                             ["contact@wroom.ro"]
                              )
 
-    email.fail_silently = False
-    email.send()
-    return HttpResponse("Email was sent!")
+        email.fail_silently = False
+        email.send()
+
+    return render(request, "base/email_sent.html")

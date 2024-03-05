@@ -1,5 +1,9 @@
 body {
-    background-color: #71b098 !important;
+    background-image: url(https://wallpapercave.com/wp/wp7453794.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
 #profile-wrapper {
@@ -7,8 +11,8 @@ body {
 }
 
 #profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -27,15 +31,15 @@ ul {
 }
 
 .social {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 
 
 #skills{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: antiquewhite;
 
 
