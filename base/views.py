@@ -9,8 +9,9 @@ def home(request):
     return render(request, 'base/home.html')
 
 
-def SendEmail(request):
+def sendEmail(request):
 
+    global email
     if request.method == 'POST':
 
         template = render_to_string('base/email_template.html', {

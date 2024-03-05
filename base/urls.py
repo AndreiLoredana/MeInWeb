@@ -4,5 +4,5 @@ from base import views
 
 urlpatterns = [
     path('', views.home),
-    path("send_email/", views.SendEmail, name="send_email")
+    path("send_email/", views.sendEmail, name="send_email")
 ]
