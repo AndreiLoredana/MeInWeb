@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://wallpapercave.com/wp/wp7453794.jpg);
+    background-image: url(https://img.freepik.com/premium-photo/full-frame-shot-metal_1048944-9557919.jpg?w=360);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ ul {
 #skills{
     display: flex;
     justify-content: space-evenly;
-    background-color: antiquewhite;
+    background-color: cornsilk;
 
 
 }
@@ -52,7 +52,7 @@ ul {
     border: 1px solid;
     padding: 15px;
     border-radius: 5px;
-    background-color: antiquewhite;
+    background-color: cornsilk;
     margin-bottom: 50px;
 }
 
@@ -60,7 +60,7 @@ ul {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: antiquewhite;
+    background-color: cornsilk;
     border-radius: 5px;
     border: 1px solid;
     font-size: 14px;
@@ -73,6 +73,6 @@ ul {
     padding-top: 10px;
     padding-bottom: 10px;
     color: #fff;
-    background-color: dimgrey;
+    background-color: dimgray;
     border: none;
 }
