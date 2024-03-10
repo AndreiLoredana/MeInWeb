@@ -31,18 +31,15 @@ ul {
 }
 
 .social {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 
-
-#skills{
+#skills {
     display: flex;
     justify-content: space-evenly;
     background-color: cornsilk;
-
-
 }
 
 #contact-form {
@@ -56,7 +53,7 @@ ul {
     margin-bottom: 50px;
 }
 
-.input-field{
+.input-field {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;

@@ -129,4 +129,4 @@ EMAIL_HOST = "smtp.wroom.ro"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = "contact@wroom.ro"
-EMAIL_HOST_PASSWORD = 'Django123!'
+EMAIL_HOST_PASSWORD = 'Parolaafoststearsa'
